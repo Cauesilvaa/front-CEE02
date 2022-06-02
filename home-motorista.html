@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <title>CEE02</title>
 </head>
 <body>
@@ -38,6 +43,42 @@
         <h1 id="h1-cpf">CPF 111.111.111-11</h1>
     </div>
 
+    <section>
+        <div class="div-fundo-card" id="skin">
+            <div class="div-card">
+
+                <div class="card" style="width: 18rem;" id="card1">
+                    <img src="pngegg (28) 1.png" class="card-img-top" id="img1">
+                    <div class="card-body">
+                      <p class="card-text" style="margin-left: 50px;">Checkin da Pirua</p>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;" id="card2">
+                    <img src="pngegg (27) 1.png" class="card-img-top" id="img2">
+                    <div class="card-body">
+                      <p class="card-text" style="margin-left: 50px;">Rotas Indicadas</p>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;" id="card3">
+                    <img src="pngegg (29) 1.png" class="card-img-top" id="img3">
+                    <div class="card-body">
+                      <p class="card-text" style="margin-left: 50px;">Entrar em contato com o Responsável</p>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;" id="card4">
+                    <img src="pngegg (30) 1.png" class="card-img-top" id="img4">
+                    <div class="card-body">
+                      <p class="card-text" style="margin-left: 50px;">Gerenciar Crianças</p>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </section>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -65,9 +106,9 @@ header{
 }
 .header-menu{
     max-width: 1084px;
-    margin: 0 auto;
-    height: 97px;
-    display: flex;
+    /* margin: 0 auto; */
+    /* height: 97px; */
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
 }
@@ -121,11 +162,11 @@ nav ul li a:hover{
         font-size: 136%;
         margin-left: 10px;
         margin-top: 12px;
-        background-color: blue;
+        background-color: #FDCA46;
     }
     .active{
         display: block;
-        background-color:blue;
+        background-color:#FDCA46;
         height: 200px;
     }
     nav ul li a{
@@ -145,12 +186,91 @@ nav ul li a:hover{
    }
 }
 
+#nome-cpf{
+    background-color: #FDCA46;
+    height: 100px; 
+    margin: 0% auto;
+    display: block; 
+    /* margin-left: 10%; */
+}
+
 #h1-nome{
     font-size: 1.50em;
+    margin-left: 3%;
 }
 
 #h1-cpf{
     font-size: 1.50em;
+    margin-left: 3%;
+}
+
+.div-fundo-card{
+    height: 1400px;
+    margin-left: 120px;
+}
+
+.div-card{
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 1400px;
+    
+}
+.card{
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#card1{
+    background-color: #FDCA46;
+    border-radius: 13px;
+    height: 30%;
+}
+
+#card2{
+    background-color: #FDCA46;
+    border-radius: 13px;
+    height: 30%;
+}
+
+#card3{
+    background-color: #FDCA46;
+    border-radius: 13px;
+    height: 30%;
+}
+
+#card4{
+    background-color: #FDCA46;
+    border-radius: 13px;
+    height: 30%;
+}
+
+#img1{
+    height: 200px;
+    width: 230px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+#img2{
+    height: 200px;
+    width: 230px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+#img3{
+    height: 200px;
+    width: 230px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+#img4{
+    height: 200px;
+    width: 230px;
+    margin-left: 50px;
+    margin-top: 60px;
 }
 </style>
 
